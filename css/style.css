@@ -434,14 +434,15 @@ main .cards .cardd .content .text span{
     margin: 0;
 }
 
+.sh-card .text span{
+    font-size: 12px;
+}
+
 @media(max-width:767px){
     .sh-card .text span{
         font-size: 10px;
     }
 }
 
-.sh-card .text span{
-    font-size: 12px;
-}
 
 /* End Shorts */
