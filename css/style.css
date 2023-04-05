@@ -402,6 +402,12 @@ main .cards .cardd .content .text span{
     color: #fff;
 }
 
+@media(max-width:767px){
+    .sh-hidden{
+        display: none;
+    }
+}
+
 .heding img{
     width: 20px;
 }
