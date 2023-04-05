@@ -219,6 +219,7 @@ nav .left .me img{
     height: 100vh;
     background: #0F0F0F;
     z-index: 99099;
+    overflow: hidden;
 }
 
 .side1 .bar{
@@ -237,6 +238,31 @@ nav .left .me img{
     display: flex;
     align-items: center;
     padding-left: 46px;
+}
+
+.aside-icon{
+    width: auto;
+    margin-right: 20px;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.side1 .active{
+    background: #77777723;
+    transition: all 0.2s;
+}
+
+.side1 .aside-icon:hover{
+    background: #77777796;
+}
+
+.aside-icon img{
+    margin-left: 10px;
+    width: 20px;
 }
 
 .parent-aside2{
@@ -323,7 +349,6 @@ main .cards .cardd{
 
 main .cards .cardd .content{
     margin-top: 10px;
-    align-items: center;
 }
 
 main .cards .cardd .content img{
@@ -336,6 +361,19 @@ main .cards .cardd .content img{
 main .cards .cardd .content .text h6{
     font-size: 14px;
     font-weight: 300;
+}
+
+main .cards .cardd .content .text p{
+    font-size: 11px;
+    color: #777;
+    margin: 0;
+}
+
+main .cards .cardd .content .text span{
+    display: block;
+    font-size: 11px;
+    color: #777;
+    margin-top: -2px;
 }
 
 /* End Main */
