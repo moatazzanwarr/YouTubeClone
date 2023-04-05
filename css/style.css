@@ -378,11 +378,11 @@ main .cards .cardd .content .text span{
     margin-top: -2px;
 }
 
-@media(min-width:0)and(max-width:767px){
+/* @media(min-width:0)and(max-width:767px){
     .small-col{
         width: 0;
     }
-}
+} */
 
 /* End Main */
 
