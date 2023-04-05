@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>YouTube Clone</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/youtube.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- Start Nav -->
+    <nav class="d-flex justify-content-between px-4 position-fixed w-100 ">
+      <div class="left d-flex">
+        <a href="#" class="me"><img class="icon" src="img/1.jpg" alt="me"></a>
+        <a href="#" class="ms-2"><img class="icon" src="img/bell.png" alt=""></a>
+        <a href="#" class="ms-2"><img class="icon" src="img/video.png" alt=""></a>
+      </div>
+      <div class="middle d-flex">
+        <div class="mic"><a href="#"><img class="icon" src="img/mic.png" alt=""></a></div>
+
+        <form action="#" class="d-flex">
+          <a href="#"><div class="iconn"><img class="icon" src="img/svgexport-5.png" alt=""></div></a>
+          <div class="position-relative">
+            <a href="#"><i class="fa-sharp fa-solid fa-keyboard"></i></a>
+            <input type="text" dir="rtl" placeholder="بحث">
+          </div>
+        </form>
+      </div>
+      <div class="right d-flex">
+        <a href="#"><img src="img/svgexport-4.png" alt=""></a>
+        <a href="#" class="a-bar" onclick="openn()"><img class="bar icon" src="img/bar.png" alt=""></a>
+      </div>
+    </nav>
+    <!-- End Nav -->
+
+    <!-- Start Side Menu -->
+
+    <aside class="parent-aside1" id="pr-aside">
+      <div class="side1" id="aside">
+        <div class="open-bar">
+          <div class="right d-flex">
+            <a href="#"><img src="img/svgexport-4.png" alt=""></a>
+            <a href="#" class="a-bar" onclick="closee()"><img class="bar" src="img/bar.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <aside class="parent-aside2" >
+      <div class="side2">
+        <a href="#">
+          <h6><img src="img/home.png" alt=""></h6>
+          <span>الصفحة الرئيسية</span>
+        </a>
+        <a href="#">
+          <h6><img src="img/shorts.png" alt=""></h6>
+          <span>Shorts</span>
+        </a>
+        <a href="#">
+          <h6><img src="img/svgexport-13.png" alt=""></h6>
+          <span>الاشتراكات</span>
+        </a>
+        <a href="#">
+          <h6><img src="img/svgexport-14.png" alt=""></h6>
+          <span>المكتبة</span>
+        </a>
+        <a href="#">
+          <h6><img src="img/svgexport-18.png" alt=""></h6>
+          <span>عمليات التنزيل</span>
+        </a>
+      </div>
+    </aside>
+
+    <!-- End Side Menu -->
+
+    <!-- Start Main -->
+    
+    <main class="position-relative">
+      <div class="row w-100">
+        <div class="col-lg-11">
+          <div class="container">
+            <div dir="rtl" class="links ms-5">
+              <div class="btn active">كل المحتوي</div>
+              <div class="btn">مباشر</div>
+              <div class="btn">لياقة بدنية</div>
+              <div class="btn">العاب فيديو</div>
+              <div class="btn">العاب مغامرات وحركة</div>
+              <div class="btn">القنوات التي تم تحميلها مؤخرا</div>
+              <div class="btn">تمت مشاهدتها</div>
+              <div class="btn">محتوي جيد لك</div>
+            </div>
+            <div class="row cards">
+              <div class="col-lg-3 col-md-4 col-sm-6 cardd">
+                <img src="img/hq720.webp" alt="">
+                <div dir="rtl" class="content d-flex">
+                  <div class="img">
+                    <img src="img/channels4_profile.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h6 class="text-light">Material UI Full Course #14 - MUI TextField Component</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 cardd">
+                <img src="img/hq720 (1).webp" alt="">
+                <div dir="rtl" class="content d-flex">
+                  <div class="img">
+                    <img src="img/unnamed.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h6 class="text-light">برنامج قلبي اطمأن | الناس للناس | الحلقة 5 | قرية بلواخ</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 cardd">
+                <img src="img/hq720.webp" alt="">
+                <div dir="rtl" class="content d-flex">
+                  <div class="img">
+                    <img src="img/channels4_profile.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h6 class="text-light">Material UI Full Course #14 - MUI TextField Component</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 cardd">
+                <img src="img/hq720 (1).webp" alt="">
+                <div dir="rtl" class="content d-flex">
+                  <div class="img">
+                    <img src="img/unnamed.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h6 class="text-light">برنامج قلبي اطمأن | الناس للناس | الحلقة 5 | قرية بلواخ</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 cardd">
+                <img src="img/hq720.webp" alt="">
+                <div dir="rtl" class="content d-flex">
+                  <div class="img">
+                    <img src="img/channels4_profile.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h6 class="text-light">Material UI Full Course #14 - MUI TextField Component</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 cardd">
+                <img src="img/hq720 (1).webp" alt="">
+                <div dir="rtl" class="content d-flex">
+                  <div class="img">
+                    <img src="img/unnamed.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h6 class="text-light">برنامج قلبي اطمأن | الناس للناس | الحلقة 5 | قرية بلواخ</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 cardd">
+                <img src="img/hq720.webp" alt="">
+                <div dir="rtl" class="content d-flex">
+                  <div class="img">
+                    <img src="img/channels4_profile.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h6 class="text-light">Material UI Full Course #14 - MUI TextField Component</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6 cardd">
+                <img src="img/hq720 (1).webp" alt="">
+                <div dir="rtl" class="content d-flex">
+                  <div class="img">
+                    <img src="img/unnamed.jpg" alt="">
+                  </div>
+                  <div class="text">
+                    <h6 class="text-light">برنامج قلبي اطمأن | الناس للناس | الحلقة 5 | قرية بلواخ</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1">
+
+        </div>    
+        <!-- Block -->
+        <div class="block position-absolute"></div>
+
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Shorts -->
+    <section class="shorts position-relative">
+      <div class="row w-100">
+        <div class="col-lg-11 ">
+          <div class="heding">
+            <span>Shorts</span>
+            <img src="img/svgexport-41.png" alt="icon">
+          </div>
+          <div class="container d-flex justify-content-between w-100">
+              <div class="sh-card">
+                <div><img src="img/hq720_2.webp" alt=""></div>
+                <div class="text">
+                  <h6>ازاي العب سكوات ؟</h6>
+                  <span dir="rtl">406 الف مشاهدة</span>
+                </div>
+              </div>
+              <div class="sh-card">
+                <div><img src="img/hq720_2.webp" alt=""></div>
+                <div class="text">
+                  <h6>ازاي العب سكوات ؟</h6>
+                  <span dir="rtl">406 الف مشاهدة</span>
+                </div>
+              </div>
+              <div class="sh-card">
+                <div><img src="img/hq720_2.webp" alt=""></div>
+                <div class="text">
+                  <h6>ازاي العب سكوات ؟</h6>
+                  <span dir="rtl">406 الف مشاهدة</span>
+                </div>
+              </div>
+              <div class="sh-card">
+                <div><img src="img/hq720_2.webp" alt=""></div>
+                <div class="text">
+                  <h6>ازاي العب سكوات ؟</h6>
+                  <span dir="rtl">406 الف مشاهدة</span>
+                </div>
+              </div>
+              <div class="sh-card">
+                <div><img src="img/hq720_2.webp" alt=""></div>
+                <div class="text">
+                  <h6>ازاي العب سكوات ؟</h6>
+                  <span dir="rtl">406 الف مشاهدة</span>
+                </div>
+              </div>
+              <div class="sh-card">
+                <div><img src="img/hq720_2.webp" alt=""></div>
+                <div class="text">
+                  <h6>ازاي العب سكوات ؟</h6>
+                  <span dir="rtl">406 الف مشاهدة</span>
+                </div>
+              </div>
+              <div class="sh-card">
+                <div><img src="img/hq720_2.webp" alt=""></div>
+                <div class="text">
+                  <h6>ازاي العب سكوات ؟</h6>
+                  <span dir="rtl">406 الف مشاهدة</span>
+                </div>
+              </div>
+              <div class="sh-card">
+                <div><img src="img/hq720_2.webp" alt=""></div>
+                <div class="text">
+                  <h6>ازاي العب سكوات ؟</h6>
+                  <span dir="rtl">406 الف مشاهدة</span>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-1"></div>
+      </div>
+      <!-- Block -->
+      <div class="block position-absolute"></div>
+    </section>
+    <!-- End Shorts -->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
