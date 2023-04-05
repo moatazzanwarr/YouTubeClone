@@ -77,11 +77,13 @@ nav img.icon{
 nav .middle{
     align-items: center;
     width: 40%;
+    overflow: hidden;
 }
 
 @media(max-width:767px){
     nav .middle{
-        display: none;
+        height: 0px;
+        width: 0px;
     }
 }
 
@@ -272,7 +274,7 @@ nav .left .me img{
     z-index: 9999;
 }
 
-@media(max-width:767px){
+@media(max-width:800px){
     .parent-aside2{
         display: none;
     }
